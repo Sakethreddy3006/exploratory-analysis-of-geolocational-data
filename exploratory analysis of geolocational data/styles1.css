@@ -1,0 +1,54 @@
+.input {
+ border: none;
+ padding: 1rem;
+ border-radius: 1rem;
+ background: #e8e8e8;
+ transition: 0.3s;
+}
+
+.input:focus {
+ outline-color: #e8e8e8;
+ background: #e8e8e8;
+ transition: 0.3s;
+}
+a:hover {
+  background-color:#eeeeee;
+} 
+a
+{
+text-decoration:none;
+}
+.bo
+{
+
+  width: 50px;
+  border: 3px solid darkgreen;
+  border-radius:25px;
+  padding: 5px;
+  margin: 2px;
+  background-color:lightgrey;
+}
+fieldset
+{
+height:400px;
+text-align:center;
+background-color:lightyellow;
+}
+.d1
+{
+background-color:lightgreen;
+}
+.d2
+{
+background-color:lightyellow;
+}
+body
+{
+background-image:url(inside.png);
+image-size:cover;
+}
+.container
+{
+text-align:center;
+}
+

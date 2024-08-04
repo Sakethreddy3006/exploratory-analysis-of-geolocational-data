@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Google Map</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 400px;"></div>
+
+    <script>
+        function initMap() {
+            var location = { lat: 37.7749, lng: -122.4194 }; // Example location (San Francisco, CA)
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: location,
+                zoom: 15
+            });
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: 'My Location'
+            });
+        }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
